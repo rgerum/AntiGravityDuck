@@ -1,0 +1,61 @@
+# rules.txt
+# Copyright 2011, Stefan Beller <stefanbeller@googlemail.com>
+#
+# This file is part of the sewers example for automapping for Tiled.
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>.
+
+
+# lines starting with # or // are comments
+# all other lines will be parsed and treated as filenames.
+
+# Feel free to comment out certain rules, to see if and how they are working.
+# So have fun experimenting with this bunch of rules :)
+
+# First apply only one tile rules to fill the regions
+#
+# We mark the place, where rules are defined, with the RuleRegion layer.
+# So whereever there are tiles at the ruleRegion layer, it will be used as a rule.
+# In the RuleSet layer we can define, which combination of tiles must occur
+# to trigger the specific rule.
+# The layers Rule_Ground, Rule_Over and Rule_Over2 define the output of the rules.
+#
+# Which tiles should I use in the regions layer?
+# Actually there can be any tiles, but it should be the same tiles for one rule.
+# So use whatever you want, maybe a colorful tile so you can see easily that these
+# tiles are used for defining the rule region.
+#
+# In the very first rulefile used for Automapping it might be useful to define
+# some map properties:
+# "DeleteTiles" = "true", "false" - This property determines if all tiles in the
+#                                   whole region where Automapping takes place
+#                                   are deleted.
+#                                   That is useful, when not all layers are covered
+#                                   at all places. (Check the Over and Over2 layer!)
+# "AutoMappingRadius" = 0,1,2...  - This property determines which regions are
+#                                   automatically remapped at live Automapping.
+#                                   When you draw directly into the map,
+#                                   not the whole map is remapped, but only a little
+#                                   place around. Here you can specify how many
+#                                   tiles at least should be remapped.
+
+./rule_000b.tmx
+./rule_000.tmx
+
+./rule_001.tmx
+#./rule_002.tmx
+
+#./rule_random.tmx
+
+

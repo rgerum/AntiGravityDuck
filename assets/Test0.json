@@ -1,0 +1,280 @@
+{ "height":10,
+ "layers":[
+        {
+         "data":[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+         "height":10,
+         "name":"Collision",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":false,
+         "width":11,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":10,
+         "name":"Kachelebene 3",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":11,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 57, 61, 61, 61, 61, 61, 61, 58, 51, 51, 51, 46, 0, 0, 0, 0, 0, 0, 45, 51, 51, 57, 54, 0, 0, 0, 0, 0, 0, 45, 51, 51, 46, 0, 0, 0, 0, 0, 0, 0, 45, 51, 51, 46, 0, 0, 0, 0, 0, 0, 0, 45, 51, 51, 55, 44, 0, 0, 0, 0, 0, 0, 45, 51, 51, 51, 46, 0, 0, 0, 0, 0, 43, 56, 51, 51, 51, 55, 41, 41, 41, 41, 41, 56, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51, 51],
+         "height":10,
+         "name":"World",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":11,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "height":14,
+         "name":"Stars",
+         "objects":[
+                {
+                 "gid":23,
+                 "height":16,
+                 "id":24,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":53,
+                 "y":125.5
+                }, 
+                {
+                 "gid":24,
+                 "height":16,
+                 "id":29,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":97.916666666667,
+                 "y":125.583333333333
+                }, 
+                {
+                 "gid":24,
+                 "height":16,
+                 "id":32,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":47.8333333333333,
+                 "y":49
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":32,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":37,
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "renderorder":"right-down",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "firstgid":1,
+         "image":"..\/..\/hellophaser\/assets\/Rules2\/MyTiles.png",
+         "imageheight":320,
+         "imagewidth":160,
+         "margin":0,
+         "name":"MyTiles",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "terrains":[
+                {
+                 "name":"Air",
+                 "tile":0
+                }, 
+                {
+                 "name":"Block",
+                 "tile":21
+                }, 
+                {
+                 "name":"Spikes",
+                 "tile":53
+                }, 
+                {
+                 "name":"Neues Terrain",
+                 "tile":-1
+                }],
+         "tilecount":200,
+         "tileheight":16,
+         "tiles":
+            {
+             "0":
+                {
+                 "terrain":[0, 0, 0, 0]
+                },
+             "10":
+                {
+                 "terrain":[0, 0, 0, 1]
+                },
+             "100":
+                {
+                 "terrain":[-1, 3, -1, 3]
+                },
+             "101":
+                {
+                 "terrain":[3, 3, 3, 3]
+                },
+             "102":
+                {
+                 "terrain":[3, -1, 3, -1]
+                },
+             "103":
+                {
+                 "terrain":[3, -1, 3, 3]
+                },
+             "104":
+                {
+                 "terrain":[-1, 3, 3, 3]
+                },
+             "11":
+                {
+                 "terrain":[0, 0, 1, 1]
+                },
+             "110":
+                {
+                 "terrain":[-1, 3, -1, -1]
+                },
+             "111":
+                {
+                 "terrain":[3, 3, -1, -1]
+                },
+             "112":
+                {
+                 "terrain":[3, -1, -1, -1]
+                },
+             "12":
+                {
+                 "terrain":[0, 0, 1, 1]
+                },
+             "13":
+                {
+                 "terrain":[0, 0, 1, 0]
+                },
+             "20":
+                {
+                 "terrain":[0, 1, 0, 1]
+                },
+             "21":
+                {
+                 "terrain":[1, 1, 1, 1]
+                },
+             "22":
+                {
+                 "terrain":[1, 1, 1, 1]
+                },
+             "23":
+                {
+                 "terrain":[1, 0, 1, 0]
+                },
+             "30":
+                {
+                 "terrain":[0, 1, 0, 0]
+                },
+             "31":
+                {
+                 "terrain":[1, 1, 0, 0]
+                },
+             "32":
+                {
+                 "terrain":[1, 1, 0, 0]
+                },
+             "33":
+                {
+                 "terrain":[1, 0, 0, 0]
+                },
+             "40":
+                {
+                 "terrain":[1, 1, 1, 0]
+                },
+             "41":
+                {
+                 "terrain":[1, 1, 0, 1]
+                },
+             "50":
+                {
+                 "terrain":[1, 0, 1, 1]
+                },
+             "51":
+                {
+                 "terrain":[0, 1, 1, 1]
+                },
+             "90":
+                {
+                 "terrain":[-1, -1, -1, 3]
+                },
+             "91":
+                {
+                 "terrain":[-1, -1, 3, 3]
+                },
+             "92":
+                {
+                 "terrain":[-1, -1, 3, -1]
+                },
+             "93":
+                {
+                 "terrain":[3, 3, 3, -1]
+                },
+             "94":
+                {
+                 "terrain":[3, 3, -1, 3]
+                }
+            },
+         "tilewidth":16
+        }, 
+        {
+         "firstgid":201,
+         "image":"..\/..\/hellophaser\/assets\/Rules2\/Tree.png",
+         "imageheight":33,
+         "imagewidth":21,
+         "margin":0,
+         "name":"Tree",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tilecount":1,
+         "tileheight":33,
+         "tilewidth":21
+        }],
+ "tilewidth":16,
+ "version":1,
+ "width":11
+}
